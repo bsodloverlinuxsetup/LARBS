@@ -14,7 +14,7 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 	*) printf "Invalid option: -%s\\n" "$OPTARG" && exit ;;
 esac done
 
-[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/bsodloverlinuxsetup/dotfiles.git"
+[ -z "$dotfilesrepo" ] && dotfilesrepo="https://git.todo56.dev/bsodlover/new-dotfiles.git"
 [ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/bsodloverlinuxsetup/LARBS/master/progs.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
