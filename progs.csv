@@ -117,3 +117,8 @@ G,https://github.com/cdown/clipmenu.git,"dmenu clipboard"
 ,wkhtmltopdf,"pandoc tool"
 A,md2pdf,"markdown 2 pdf"
 ,pandoc,"pandoc"
+,neofetch,"neofetch"
+,ueberzug,"img preview"
+,telegram-desktop,"tg dskpt"
+A,whatsapp-nativefier
+,python-pip,"pypip"
